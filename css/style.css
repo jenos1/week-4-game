@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#header {
+	border-radius: 25px;
+	background: #378778;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-shadow: 0 0 40px #ffff00,
+	0 0 20px #ffff00,
+	0 0 30px #ffff00,
+	0 0 40px #0087ff,
+	0 0 70px #0087ff,
+	0 0 80px #0087ff,
+	0 0 100px #0087ff,
+	0 0 150px #0087ff;
+}
+
+.delay1, .delay2 {
+	animation-delay: 500ms;
+}
+
+.gem1 {
+	height: 110px;
+	width: 125px;
+}
+
+.gem2 {
+	height: 100px;
+	width: 180px;
+}
+
+.gem3 {
+	height: 150px;
+	width: 170px;
+}
+
+.gem4 {
+	height: 110px;
+	width: 180px;
+}
+
+.game-rules {
+	text-align: left;
+	padding-top: 26px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.win-messages, .lose-messages {
+	font-size: 30px;
+	font-style: italic;
+	color: #e542f4;
+}
+
+#gems {
+	margin-top: 30px;
+	font-size: 30px;
+	margin-left: 40px;
+}
+
+#target-score {
+	margin-right: 30px;
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+
+#totalscore {
+	font-size: 30px;
+	padding-top: 45px;
+}
+
+#scoreboard {
+	margin-top: 30px;
+	margin-left: 45px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background: #e5e5ff;
+	border-style: groove;
+	border-radius: 25px;
+	border-color: #09e2d2;
+	border-width: 20px;
+}
+
+
+
+

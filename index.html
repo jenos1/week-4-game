@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystals Collector Game</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+    <p id="header"> Crystals Collector </p>
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="game-rules">
+        <p> <strong> Game Rules: </strong> You will be given a random number at the start of the game. Your challenge is to figure out how to match the random (target score) number by choosing which crystal to click.</p> 
+
+        <p>There are four crystals to the right. Clicking on a crystal will add a specific number of points to your total score. The value of each crystal is hidden from you until you click on it. </p> 
+
+        <p>You win the game by matching your total score to the target score. You lose the game if your total score is more than the target score. </p> 
+
+        <p> Each time the game starts, the value of each crystal changes.</p>
+
+        <p style="text-align: center; font-size: 25px; color: #238e7a"> <i> *  Begin your challenge by clicking on a crystal! *   </i> </p> 
+
+      </div>
+   </div>
+
+   <div class="col-sm-5">
+      <div class="card"  style="width: 22rem;">
+        <div class="card-body">
+          <h4 class="card-title"> Select A Crystal</h4>
+          <div class="text-center">
+            <img src="images/blue_crystal.jpg" alt="gem_1" class="gem1 gems" value="0">
+            <img src="images/multicolor_crystal.jpg" alt="gem_2" class="gem2 gems" value="1">    
+            <img src="images/octagon-green-emerald.jpg"  alt="gem_3" class="gem3 gems" value="2">      
+            <img src="images/crystal_cosmic.png"  alt="gem_4" class="gem4 gems" value="3">           
+          </div>
+      </div>
+    </div>
+
+   </div>
+
+  </div>
+
+  <div class="row">
+    <div id="target-score" class="card" style="width: 22rem; background: #e2cf91; text-align: center;">
+      <div class="card-body">
+        <i class="fas fa-bullseye"></i> 
+        <p id="target" class="target">Your Target Score: </p>  
+      </div>
+    </div>
+
+    <div class="card" style="width: 22rem; background: #cee0e0; text-align: center;">
+      <div class="card-body">
+        <p class="card-title" id="totalscore">Your Total Score: </p>
+        <p class="totalscore"> </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card" id="scoreboard" style="width: 36rem; background: #e2cf91; text-align: center;">
+      <div class="card-body">
+        <h2 class="scoreboard">Scoreboard:</h2> <br>
+        <h3 class="wins"> Wins: </h3>
+        <p class="win-messages animated fadeIn delay1">  </p>
+        <h3 class="losses"> Losses:</h3>
+        <p class="lose-messages animated fadeIn delay2">  </p>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
