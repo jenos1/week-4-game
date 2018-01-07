@@ -23,6 +23,11 @@ body {
 	0 0 150px #0087ff;
 }
 
+.select-crystal {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
 .delay1, .delay2 {
 	animation-delay: 500ms;
 }
@@ -49,6 +54,7 @@ body {
 
 .game-rules {
 	text-align: left;
+	margin-right: 10px;
 	padding-top: 26px;
 	padding-bottom: 20px;
 	font-size: 30px;
