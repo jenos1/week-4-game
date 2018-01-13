@@ -1,13 +1,14 @@
 # week-4-game
 
-This is a multiple choice Trivia Game called "Old Time Fiddle - Music Trivia."
+This is a multiple choice game called "Crystals Collector."
 
 ## Instructions
 
-* This is a timed game, allowing the user one minute to complete all questions.
-* User begins the game by clicking on the Game Start button.
-* Select one answer only for each question, then click on the DONE button when finished.
-	* DONE will display how many questions the user answered correctly, incorrectly and left blank.
-	* The game ends when the time runs out or the user clicks on DONE.
+* The user is given a random number at the start of the game & starts the game by clicking on any crystal. 
+* Your challenge is to figure out how to match the random (target score) number by choosing which crystal to click.
+* There are four crystals. Clicking on a crystal will add a specific number of points to user's total score. 
+* The value of each crystal is hidden from user until you click on it.
+* You win the game by matching your total score to the target score. You lose the game if your total score is more than the target score.
+* Each time the game starts, the value of each crystal changes.
 
 ## 
